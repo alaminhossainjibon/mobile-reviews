@@ -30,7 +30,7 @@ const displayPhone = data => {
             <h5 class="card-title">Brand: ${data.brand}</h5>
             <p>Name: ${data.phone_name}</p>
             <p>Model: ${data.slug}</p>
-            <button onclick="loadPhoneDetail('${data.slug}')" class="btn btn-outline-success" type="button">Featur</button>
+            <button onclick="loadPhoneDetail('${data.slug}')" class="btn btn-outline-success" type="button">Features</button>
         </div>
     </div>
         `;
